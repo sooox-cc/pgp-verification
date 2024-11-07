@@ -10,7 +10,7 @@ This repository hosts a proof-of-concept application demonstrating a "challenge-
 
 
 ## Usage
-1. **Visit the Application**: Go to the hosted application on Streamlit at [PGP Verification App](https://pgp-verification.streamlit.app/).
+1. **Visit the Application**: Go to the hosted application on Streamlit at [PGP Verification App](https://sooox-pgp-verification.streamlit.app/).
 2. **Submit Your Public Key**: Enter your PGP public key in the provided text area. This step simulates the public key submission that would occur during account creation.
 3. **Encrypt the Challenge Message**: Use your private PGP key to encrypt the randomly generated message displayed on the app.
 4. **Verify Identity**: Submit the encrypted message back to the application. The app will attempt to decrypt it using your public key. Successful decryption verifies your identity.
